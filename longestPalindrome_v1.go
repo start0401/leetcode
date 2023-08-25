@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	log.Printf("result %v", longestPalindrome("aacabdkacaa"))
+	log.Printf("result %v", longestPalindrome_v1("aacabdkacaa"))
 }
 
 func longestPalindrome_v1(s string) string {
